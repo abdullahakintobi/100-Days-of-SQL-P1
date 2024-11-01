@@ -138,3 +138,14 @@ WHERE
     LAT_N < 137.2345
 ORDER BY LAT_N DESC
 LIMIT 1;
+--
+/*
+Query the smallest Northern Latitude (LAT_N) from STATION that is greater than
+38.7780. Round your answer to 4 decimal places.
+*/
+SELECT
+    MIN(ROUND(LAT_N, 4)) AS MAX_LAT_N
+FROM    
+    STATION
+WHERE
+    LAT_N > 38.7780;
