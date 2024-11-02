@@ -62,7 +62,7 @@ WHERE
 --
 /*
 Query the sum of the populations for all Japanese cities in CITY. 
-The COUNTRYCODE for Japan is JPN..
+The COUNTRYCODE for Japan is JPN.
 */
 SELECT
     SUM(POPULATION) AS SUM_POPULATION
@@ -70,3 +70,12 @@ FROM
     CITY
 WHERE
     COUNTRYCODE = 'JPN';
+--
+/*
+Query the difference between the maximum and minimum populations in CITY.
+*/
+SELECT
+    MAX(POPULATION) - MIN(POPULATION)
+        AS POPULATION_DIFF
+FROM
+    CITY;
