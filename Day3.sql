@@ -21,3 +21,13 @@ WHERE
     salary > 2000
         AND months < 10
 ORDER BY employee_id;
+--
+/*
+Query the average population of all cities in CITY where District is California.
+*/
+SELECT
+    AVG(POPULATION) AS AVG_POPULATION
+FROM
+    CITY
+WHERE
+    DISTRICT = 'California';
