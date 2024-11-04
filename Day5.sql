@@ -30,3 +30,24 @@ SELECT
     END AS TRIANGLE_TYPE
 FROM 
     TRIANGLES;
+--
+/*
+P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5):
+
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+
+Write MySQL query to print the pattern P(20).
+*/
+WITH RECURSIVE pattern AS (
+    SELECT 20 AS row_count
+    UNION ALL
+    SELECT row_count - 1
+    FROM pattern
+    WHERE row_count > 1
+)
+SELECT REPEAT('* ', row_count) AS pattern_row
+FROM pattern;
