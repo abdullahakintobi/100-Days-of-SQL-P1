@@ -5,6 +5,8 @@
 -- RDBMS - IBM DB2
 --
 --
+--
+--
 -- Drop table if it exists
 DROP TABLE
   IF EXISTS INSTRUCTOR;
