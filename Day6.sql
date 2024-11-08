@@ -1,4 +1,3 @@
-
 -- SQL and Relational Databases 101
 -- Lab 3 - Composing and Running Basic SQL Queries
 -- Hands-on Lab: Composing and Running Basic SQL Queries
