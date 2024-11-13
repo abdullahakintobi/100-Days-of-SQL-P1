@@ -60,9 +60,3 @@ DELETE FROM
   INSTRUCTOR
 WHERE
   ins_id = 2;
---
--- Retrieve all rows in the INSTRUCTOR table
-SELECT
-  *
-FROM
-  INSTRUCTOR;
