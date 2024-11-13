@@ -37,12 +37,3 @@ SELECT
 FROM
   INSTRUCTOR;
 --
--- Select the firstname, lastname and country where the city is Toronto
-SELECT
-  firstname,
-  lastname,
-  country
-FROM
-  INSTRUCTOR
-WHERE
-  city = 'Toronto';
