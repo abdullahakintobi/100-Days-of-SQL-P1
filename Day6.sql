@@ -55,8 +55,3 @@ SET
 WHERE
   firstname = 'Rav';
 --
--- Delete the row for Raul Chong from the table
-DELETE FROM
-  INSTRUCTOR
-WHERE
-  ins_id = 2;
