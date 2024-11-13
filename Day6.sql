@@ -46,12 +46,3 @@ FROM
   INSTRUCTOR
 WHERE
   city = 'Toronto';
---
--- Update the row for Rav Ahuja and change his city to Markham
-UPDATE
-  INSTRUCTOR
-SET
-  city = 'Markham'
-WHERE
-  firstname = 'Rav';
---
