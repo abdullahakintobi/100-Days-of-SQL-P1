@@ -40,3 +40,5 @@ FROM
 SELECT *
 FROM INSTRUCTOR
 WHERE ins_id = 2;
+
+-- Select first and last name from INSTRUCTOR table where the ins_id = 3
