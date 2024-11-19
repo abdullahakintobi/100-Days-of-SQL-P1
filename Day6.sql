@@ -36,6 +36,7 @@ SELECT
 FROM
   INSTRUCTOR;
 
+-- Select all from INSTRUCTOR table where ins_id is equal to 2
 SELECT *
 FROM INSTRUCTOR
 WHERE ins_id = 2;
